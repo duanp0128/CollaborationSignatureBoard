@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>China 3D</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="../js/paper-full.min.js"></script>
+  <script type="text/javascript" src="../js/socket.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="ipad-left" class="ipad">
+      <img src="../img/logo_1.png" id="ipad-logo1">
+      <iframe src="/userc" class="signature-display" id="display-c"></iframe>
+    </div>
+
+    <div id="info">
+      <div id="info-title">
+        <div id="block-a">
+          <img id="title-a" src="../img/logo_1.png">
+          <img id="name-a" class="name-style" src="../img/text_1.png">
+        </div>
+        <img class="sign" src="../img/sign.png">
+        <div id="block-b">
+          <img id="title-b" src="../img/logo_2.png">
+          <img id="name-b" class="name-style" src="../img/text_2.png">
+        </div>
+      </div>
+
+      <div class="name-center">合&nbsp;&nbsp;&nbsp;約</div>
+
+      <div id="signature-display">
+        <div id="name-block-a">
+          <img id="img-a" class="result-display" src="../img/xiao_bg.png">
+          <div class="result-name">蕭定一先生</div>
+        </div>
+
+        <div id="name-block-b">
+          <img id="img-b" class="result-display" src="../img/zou_bg.png">
+          <div class="result-name">鄒世龍先生</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ipad-right" class="ipad">
+      <img src="../img/logo_2.png" id="ipad-logo2">
+      <iframe src="/userd" class="signature-display" id="display-d"></iframe>
+    </div>
+  </div>
+
+</body>
+
+</html>

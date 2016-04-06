@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MiniDoodle</title>
+  <meta charset="utf-8">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="../js/paper-full.min.js"></script>
+  <script type="text/javascript" src="../js/socket.js"></script>
+  <script type="text/paperscript" src="../js/draw_b.js" canvas="canvas_b"></script>
+</head>
+
+<body>
+  <div class="user-wrapper">
+    <img id="btn-refresh-b" class="btn-refresh" src="../img/btn_reload.png">
+    <img id="img-star" class="center-block" src="../img/logo_2-1.png">
+    <div class="display-canvas">
+      <canvas id="canvas_b" class="canvas_style"></canvas>
+    </div>
+    <img id="btn-b" class="center-block" src="../img/btn_enter.png">
+  </div>
+</body>
+
+</html>

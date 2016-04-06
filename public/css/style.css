@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  background: url(../img/background.png) 0 0 no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 1920px 1080px;
+  padding-top: 60px;
+}
+.ipad {
+  background: url(../img/ipad.png) 0 0 no-repeat;
+  width: 490px;
+  height: 744px;
+  position: absolute;
+  z-index: 1;
+}
+#ipad-left {
+  left: 120px;
+}
+#ipad-right {
+  right: 120px;
+}
+#ipad-logo1 {
+  width: 263px;
+  height: 221px;
+  position: relative;
+  top: 70px;
+  left: 120px;
+}
+#ipad-logo2 {
+  width: 299px;
+  height: 115px;
+  position: relative;
+  top: 130px;
+  left: 98px;
+}
+.signature-display {
+  width: 350px;
+  height: 250px;
+  border: 0;
+  position: relative;
+}
+#display-c {
+  top: 88px;
+  left: 70px;
+}
+#display-d {
+  top: 192px;
+  left: 70px;
+}
+#info {
+  width: 600px;
+  height: 655px;
+  position: absolute;
+  left: 641px;
+}
+#block-a {
+  width: 250px;
+  height: 240px;
+  float: left;
+}
+#block-b {
+  width: 250px;
+  height: 240px;
+  float: right;
+}
+#title-a {
+  width: 185px;
+  height: 135px;
+  position: relative;
+  left: 28px;
+}
+#title-b {
+  width: 185px;
+  height: 62px;
+  position: relative;
+  left: 28px;
+  top: 42px;
+}
+.name-style {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+#name-a {
+  padding-top: 49px;
+  padding-left: 12px;
+}
+#name-b {
+  padding-top: 122px;
+  padding-left: 60px;
+}
+.sign {
+  font-family: sans-serif;
+  font-size: 3.5em;
+  font-weight: 100;
+  position: relative;
+  top: 184px;
+  left: 45px;
+}
+.name-center {
+  font-size: 68px;
+  position: relative;
+  margin: auto auto;
+  top: 24px;
+  width: 220px;
+}
+#signature-display {
+  padding-top: 135px;
+}
+#name-block-a {
+  width: 210px;
+  height: 220px;
+  float: left;
+}
+#name-block-b {
+  width: 210px;
+  height: 220px;
+  float: right;
+}
+.result-display {
+  width: 200px;
+  height: 130px;
+}
+.result-name {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+  position: relative;
+  top: 120px;
+  padding-top: 12px;
+  border-top: 2px solid black;
+}
+.user-wrapper {
+  background: url(../img/ipad_background.png) no-repeat 0 0;
+  height: 690px;
+  width: 590px;
+  margin: auto auto;
+  padding-top: 150px;
+}
+.btn-refresh {
+  position: relative;
+  right: 110px;
+  float: right;
+  width: 24px;
+  height: 24px;
+}
+.display-canvas {
+  padding-top: 15px;
+    padding-bottom: 12px;
+  width: 340px;
+  margin: auto auto;
+}
+.canvas_style_main {
+  width: 340px;
+  height: 240px;
+  border: 0px solid #000000;
+}
+.canvas_style {
+  width: 340px;
+  height: 240px;
+  border: 1px dashed #ECE0E0;
+}
+#img-a {
+  position: absolute;
+  left: -400px;
+  z-index: 0;
+  top: 450px;
+}
+#img-b {
+  position: absolute;
+  left: 800px;
+  z-index: 0;
+  top: 450px;
+}
+#info-title {
+  width: 600px;
+  height: 240px;
+}
+#img-china {
+  width: 280px;
+  height: 197px;
+}
+#img-star {
+  width: 280px;
+  height: 197px;
+  margin-right: 128px;
+}
+#btn-a {
+  width: 100px;
+  height: 22px;
+}
+#btn-b {
+  width: 100px;
+  height: 22px;
+}
