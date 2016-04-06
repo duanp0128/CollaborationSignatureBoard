@@ -1,2 +1,2 @@
 # CollaborationSignatureBoard
-A free drawing board with NodeJS & PaperJS
+A free drawing board with NodeJS & Socket & PaperJS
